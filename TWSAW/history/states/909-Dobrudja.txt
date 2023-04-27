@@ -1,0 +1,34 @@
+state={
+	id=909
+	name="STATE_909"
+	
+	history = {
+	owner = BUL
+		
+		add_core_of = ROM
+		add_core_of = BUL
+	
+	buildings = {
+		arms_factory = 1
+		infrastructure = 3
+			
+		657 = {
+			naval_base = 8
+
+		}
+		687 = {
+			naval_base = 1
+
+		}
+		dockyard = 1
+	}
+	}
+	
+	provinces={
+		657 687 3076 9635 
+	}
+	manpower=1121000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,280 @@
+ideas = {
+
+	country = {
+	war_recovery = {
+		picture = 
+		
+		allowed = {
+		original_tag = FRA
+		always = yes
+		}
+		
+		available = {}
+		
+		cancel = { date > 1938.01.01}
+		
+		allowed_civil_war = { always = yes }
+		
+		modifier = {
+			war_support_factor = -0.3
+			production_factory_max_efficiency_factor = -0.1
+			consumer_goods_factor = 0.07
+
+			}
+		}
+		
+	weakened_army = {
+		picture = 
+		
+		allowed = {
+		original_tag = FRA
+		always = yes
+		}
+		
+		available = {}
+		
+		cancel = {}
+		
+		allowed_civil_war = { always = yes }
+		
+		modifier = {
+		production_factory_efficiency_gain_factor = -0.05
+		land_reinforce_rate = -0.1
+		training_time_factor = 0.4
+		minimum_training_level = 0.2 
+
+			}
+		}
+		
+	high_unemployment = {
+		picture = 
+		
+		allowed = {
+		original_tag = FRA
+		always = yes
+		}
+		
+		available = {}
+		
+		cancel = { has_war = yes }
+		
+		allowed_civil_war = { always = yes }
+		
+		modifier = {
+		consumer_goods_factor = 0.03
+		conscription = 0.02
+			}
+		}
+		
+	FRA_two_year_plan_1 = {
+		picture = 
+		
+		allowed = {
+		original_tag = FRA 
+		always = no
+		}
+		
+		available = {}
+		
+		cancel = {}
+		
+		allowed_civil_war = { always = no }
+		
+		modifier = {
+		production_speed_industrial_complex_factor = 0.15
+		production_speed_arms_factory_factor = -0.15
+		consumer_goods_factor = -0.05
+			}
+		}
+		
+	FRA_two_year_plan_2 = {
+		picture = 
+		
+		allowed = {
+		original_tag = FRA 
+		always = no
+		}
+		
+		available = {
+		}
+		
+		cancel = {}
+		
+		allowed_civil_war = { always = no }
+		
+		modifier = {
+		production_speed_industrial_complex_factor = -0.15
+		production_speed_arms_factory_factor = 0.15
+		consumer_goods_factor = -0.05
+			}
+		}
+		
+	FRA_concentrated_ind = {
+		#picture = 
+		
+		allowed = {
+		original_tag = FRA
+		always = no
+		}
+		
+		available = {}
+		
+		cancel = {}
+		
+		allowed_civil_war = { always = yes }
+		
+		modifier = {
+		production_speed_industrial_complex_factor = 0.1 
+		production_factory_max_efficiency_factor = 0.2
+			}
+		}
+		
+	FRA_military_advisors_in_spain = {
+		#picture = SPR_nationalist_remnants
+
+		removal_cost = -1
+
+		allowed = {
+			always = no # Added via focus
+		}
+
+		allowed_civil_war = {
+			always = no
+		}
+
+		modifier = {
+			experience_gain_army = 0.22
+		}
+	}
+	
+	FRA_guerre_eclair = {
+		#picture = 
+		
+		allowed = {
+		original_tag = FRA
+		always = no
+		}
+		
+		available = {}
+		
+		cancel = {}
+		
+		allowed_civil_war = { always = yes }
+		
+		modifier = {
+		army_armor_speed_factor = 0.1
+			}
+		}
+		
+	FRA_tank_prod = {
+		picture = 
+		
+		allowed = {
+		original_tag = 
+		always = yes
+		}
+		
+		available = {}
+		
+		cancel = {}
+		
+		allowed_civil_war = { always = yes }
+		
+					equipment_bonus = {
+					armor_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		
+		modifier = {
+		
+			}
+		}
+##############################################
+##############################################
+##############################################
+		
+	recovered_economy = {
+		picture = 
+		
+		allowed = {
+		original_tag = 
+		always = yes
+		}
+		
+		available = {}
+		
+		cancel = {}
+		
+		allowed_civil_war = { always = yes }
+		
+		modifier = {
+			war_support_factor = 0.05
+			production_factory_max_efficiency_factor = 0.05
+			consumer_goods_factor = -0.01
+			}
+		}
+		
+	revised_military = {
+		picture = 
+		
+		allowed = {
+		original_tag = 
+		always = yes
+		}
+		
+		available = {}
+		
+		cancel = {}
+		
+		allowed_civil_war = { always = yes }
+		
+		modifier = {
+		land_reinforce_rate = 0.1
+		training_time_factor = -0.1
+		minimum_training_level = 0.4 
+			}
+		}
+		
+	revised_eco_civ = {
+		picture = 
+		
+		allowed = {
+		original_tag = 
+		always = yes
+		}
+		
+		available = {}
+		
+		cancel = {}
+		
+		allowed_civil_war = { always = yes }
+		
+		modifier = {
+		consumer_goods_factor = -0.05
+			}
+		}
+		
+	revised_eco_mil = {
+		picture = 
+		
+		allowed = {
+		original_tag = 
+		always = yes
+		}
+		
+		available = {}
+		
+		cancel = {}
+		
+		allowed_civil_war = { always = yes }
+		
+		modifier = {
+		production_factory_efficiency_gain_factor = 0.1
+		army_core_attack_factor = 0.3
+		army_org_factor = 0.15
+			}
+		}
+	}
+}

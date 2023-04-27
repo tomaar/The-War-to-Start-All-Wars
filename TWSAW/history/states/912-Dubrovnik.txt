@@ -1,0 +1,35 @@
+state={
+	id=912
+	name="STATE_912"
+	provinces={
+		3868 3924 6889 11816 
+	}
+	
+			victory_points = {
+			6889 3 
+		}
+		
+				victory_points = {
+			3924 3 
+		}
+	
+	history = {
+	
+	buildings = {
+	infrastructure = 2
+	3924 = {
+				naval_base = 3
+
+			}
+	}
+	
+	owner = ITA
+	add_core_of = ITA
+	add_core_of = CRO
+	}	
+
+	manpower=26000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

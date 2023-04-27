@@ -1,0 +1,33 @@
+﻿###########################
+# Germany Events
+###########################
+
+add_namespace = germania
+
+country_event = {
+	id = germania.1
+	title = germania.1.t
+	desc = germania.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting #place holder
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germania.1.a 
+		ai_chance = { factor = 1 } #gib
+		
+		28 = { set_state_owner_to = FRA }
+	}
+	
+	option = {
+		name = germania.1.b 
+		ai_chance = { factor = 99 }	#don't gib alsace
+		
+		FRA = {	
+			create_wargoal = {
+			type = annex_everything
+			target = GER 
+			}
+		}
+	}
+}

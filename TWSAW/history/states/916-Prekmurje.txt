@@ -1,0 +1,24 @@
+state={
+	id=916
+	name="STATE_916"
+	
+	history = {
+	
+			add_core_of = SLO
+			owner = HUN
+			add_core_of = CRO
+			
+			buildings = {
+			infrastructure = 1
+		}
+
+	}
+	
+		provinces={
+		6672 
+	}
+	manpower=110000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

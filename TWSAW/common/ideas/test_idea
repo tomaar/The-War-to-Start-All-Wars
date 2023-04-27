@@ -1,0 +1,23 @@
+ideas = {
+
+	country = {
+	test_idea = {
+		picture = 
+		
+		allowed = {
+		original_tag = 
+		always = yes
+		}
+		
+		available = {}
+		
+		cancel = {}
+		
+		allowed_civil_war = { always = yes }
+		
+		modifier = {
+		
+			}
+		}
+	}
+}

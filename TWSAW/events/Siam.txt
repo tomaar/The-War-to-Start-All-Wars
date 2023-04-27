@@ -1,0 +1,33 @@
+﻿###########################
+# Siam Events
+###########################
+
+add_namespace = siam
+
+country_event = {
+	id = siam.1
+	title = siam.1.t
+	desc = siam.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting #place holder
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = siam.1.a #give up
+		ai_chance = { factor = 95 }
+		
+		741 = { set_state_owner_to = FRA }
+	}
+	
+	option = {
+		name = siam.1.b #fight lul
+		ai_chance = { factor = 5 }
+		
+			FRA = {
+				create_wargoal = {
+			type = annex_everything
+			target = SIA
+			}
+		}	
+	}
+}

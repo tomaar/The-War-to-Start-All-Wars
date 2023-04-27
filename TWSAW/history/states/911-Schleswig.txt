@@ -1,0 +1,25 @@
+state={
+	id=911
+	name="STATE_911"
+	
+	history={
+
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+
+		}
+		add_core_of = GER
+		add_claim_by = DEN
+	}
+	
+	provinces={
+		317 332 11251 11366 
+	}
+	manpower=639430
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

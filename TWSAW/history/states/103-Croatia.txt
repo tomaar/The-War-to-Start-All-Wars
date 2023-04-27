@@ -1,0 +1,33 @@
+
+state={
+	id=103
+	name="STATE_103"
+
+	history={
+		owner = HUN
+		victory_points = {
+			13252 2 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 3
+			6889 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CRO
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		591 984 3601 3974 6611 11901 13252 
+	}
+	manpower=1405700
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=4.000
+}
