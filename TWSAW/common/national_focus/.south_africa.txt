@@ -1,0 +1,226 @@
+﻿#focus_tree = {
+#	id = south_african_focus
+#	
+#	country = {
+#		factor = 0
+#		
+#		modifier = {
+#			add = 10
+#			tag = SAF
+#		}
+#	}
+#	
+#	default = no
+#
+#
+#
+##	focus = {
+##		id = SAF_
+##		icon = GFX_
+##		prerequisite = { focus = }
+##		mutually_exclusive = { focus =  }
+##		x = -3
+##		y = 0
+##		relative_position_id = 
+##
+##		cost = 10
+##
+##		ai_will_do = {
+##			factor = 1
+##		}
+##
+##		available = {
+##
+##		}
+##		
+##		bypass = {
+##
+##		}
+##
+##		cancel_if_invalid = yes
+##		continue_if_invalid = no
+##		available_if_capitulated = no
+##
+##		complete_tooltip = {
+##
+##		}
+##
+##		completion_reward = {
+##
+##		}
+##	}
+#
+#	focus = {
+#		id = SAF_bechuanaland_crisis
+#		icon = GFX_goal_generic_demand_territory
+#		x = 2
+#		y = 0
+#		
+#		cost = 2
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		
+#		bypass = {
+#
+#		}
+#	
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = SAF_bechuanaland_negotiate1
+#		icon = GFX_goal_generic_demand_territory
+#		prerequisite = {
+#			focus = SAF_bechuanaland_crisis
+#		}
+#		x = 1
+#		y = 1
+#
+#		mutually_exclusive = {
+#			focus = SAF_bechuanaland_war1
+#		}
+#		
+#		cost = 5
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		
+#
+#		completion_reward = {
+#
+#		}
+#	}
+#
+#	focus = {
+#		id = SAF_bechuanaland_negotiate2
+#		icon = GFX_goal_generic_demand_territory
+#		prerequisite = {
+#			focus = SAF_bechuanaland_negotiate1
+#		}
+#		x = 1
+#		y = 2
+#
+#		mutually_exclusive = {
+#			focus = SAF_bechuanaland_war2
+#		}
+#		
+#		cost = 5
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		
+#
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = SAF_bechuanaland_negotiate3
+#		icon = GFX_goal_generic_demand_territory
+#		prerequisite = {
+#			focus = SAF_bechuanaland_negotiate2
+#		}
+#		x = 1
+#		y = 3
+#
+#		mutually_exclusive = {
+#			focus = SAF_bechuanaland_war3
+#		}
+#		
+#		cost = 5
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		
+#
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = SAF_bechuanaland_war1
+#		icon = GFX_goal_generic_demand_territory
+#		prerequisite = {
+#			focus = SAF_bechuanaland_crisis
+#		}
+#		x = 3
+#		y = 1
+#
+#		mutually_exclusive = {
+#			focus = SAF_bechuanaland_negotiate1
+#		}
+#		
+#		cost = 5
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		
+#
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = SAF_bechuanaland_war2
+#		icon = GFX_goal_generic_demand_territory
+#		prerequisite = {
+#			focus = SAF_bechuanaland_war1
+#			focus = SAF_bechuanaland_negotiate1
+#		}
+#		x = 3
+#		y = 2
+#
+#		mutually_exclusive = {
+#			focus = SAF_bechuanaland_negotiate2
+#		}
+#		
+#		cost = 5
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		
+#
+#		completion_reward = {
+#			
+#		}
+#	}
+#
+#	focus = {
+#		id = SAF_bechuanaland_war3
+#		icon = GFX_goal_generic_demand_territory
+#		prerequisite = {
+#			focus = SAF_bechuanaland_negotiate2
+#			focus = SAF_bechuanaland_war2
+#		}
+#		x = 3
+#		y = 3
+#
+#		mutually_exclusive = {
+#			focus = SAF_bechuanaland_negotiate3
+#		}
+#		
+#		cost = 5
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		
+#
+#		completion_reward = {
+#			
+#		}
+#	}
+#}		
+#

@@ -1,0 +1,21 @@
+state={
+	id=921
+	name="STATE_921"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = USA
+
+	}
+	provinces={
+		733 3712 3715 4445 7629 9675 10481 13158 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}
